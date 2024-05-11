@@ -1,0 +1,6 @@
+pandas
+numpy
+catboost
+pathlib
+scikit-learn
+streamlit
