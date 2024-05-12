@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f9d8f6f-d32a-4b36-93c6-ba60d3f337ba" name="Changes" comment="Домашнее задание №4">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/create_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/create_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/create_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/create_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/data/data_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/data/data_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/data/data_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/data/data_train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/model/model_tk.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/model/model_tk.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/datasets.dvc" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/datasets.dvc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab4/get_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/get_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab4/google disk" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/google disk" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Lab3" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Lab4" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -301,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715501781382</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Домашнее задание №4">
+      <created>1715505152703</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1715505152703</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Домашнее задание №4">
+      <created>1715505197448</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1715505197448</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -14,14 +14,14 @@ features_all = ['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked', 'S
 features_all_wo = ['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked']
 
 # заполним данные о поле пассажира числовыми данными (0 или 1) вместо текстовых ('male' или 'female')
-train['Sex'] = train['Sex'].apply(lambda x: 0 if 'male' else 1)
-test['Sex'] = test['Sex'].apply(lambda x: 0 if 'male' else 1)
+train['Sex'] = train['Sex'].apply(lambda x: 0 if x == 'male' else 1)
+test['Sex'] = test['Sex'].apply(lambda x: 0 if x == 'male' else 1)
 # в признаке "Возраст" много пропущенных (NaN) значений, заполним их средним значением возраста
 train['Age'] = train['Age'].fillna(train.Age.mean())
 test['Age'] = test['Age'].fillna(train.Age.mean())
 # в признаке "Посадка" числовыми данными (0, 1, 2, 3) вместо текстовых
-train['Embarked'] = train['Embarked'].apply(lambda x: 1 if 'C' else ('2' if 'S' else ('3' if 'Q' else 0)))
-test['Embarked'] = test['Embarked'].apply(lambda x: 1 if 'C' else ('2' if 'S' else ('3' if 'Q' else 0)))
+train['Embarked'] = train['Embarked'].apply(lambda x: 1 if x == 'C' else ('2' if x == 'S' else ('3' if x == 'Q' else 0)))
+test['Embarked'] = test['Embarked'].apply(lambda x: 1 if x == 'C' else ('2' if x == 'S' else ('3' if x == 'Q' else 0)))
 
 # запишем созданные датасеты во внешние csv-файлы
 filepath_train = Path('data/data_train.csv')
